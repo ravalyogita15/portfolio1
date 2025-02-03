@@ -1,0 +1,373 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body
+{
+    background-color: rgb(243, 243, 243);
+}
+.navbar a
+{
+    color: black;
+    font-weight:bold ;
+    margin-top: 5px;
+
+}
+.header
+{
+    height: 70px;
+    background-color: white;
+
+}
+.header a
+{
+    content: '';
+    display: block;
+    width: 0%;
+    padding: 2px;  
+    transition: all 0.5s ease-in-out;  
+}
+.header a:hover
+{
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+.banner
+{
+    background-image: url('https://w0.peakpx.com/wallpaper/374/823/HD-wallpaper-black-brick-texture-black-pattern-texture.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.dropdown a
+{
+    font-size: 16px;
+}
+
+.cd-headline
+{
+    color: white;
+    padding-top: 5%;
+    
+}
+.aboutme
+{
+    border-bottom: 2px solid rgb(5, 91, 189);
+    display: inline;
+}
+.about-pr
+{
+    font-size: 18px;
+    line-height: 35px;
+}
+.profile
+{
+    box-shadow:0px 0px 15px gray ;
+}
+.ser
+{
+    font-weight: bold;
+    font-size: 32px;
+}
+.card
+{
+    transition: all 0.5s all ease-in-out;
+}
+.box
+{
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px gray;
+}
+.icon-card
+{
+   margin: auto;
+   margin-top: 10px;
+   border: 10px solid #007aff;
+   border-radius: 50%;
+   padding:15px 0px;
+   /* transition: all 0.5s all ease-in-out; */
+}
+.icon-card i
+{
+    font-size: 45px;
+    border-radius: 50%;
+    padding:25px;
+    /* transition: all 0.5s all ease-in-out; */
+}
+.card:hover
+{
+    .icon-card i
+    {
+        background-color: #007aff;
+        color: white;
+
+    }
+    .icon-card
+    {
+        margin: auto;
+        margin-top: 10px;
+        border: 10px solid #abcff3;
+        border-radius: 50%;
+        padding:15px 0px;
+    }
+}
+.card-title
+{
+    font-weight: bold;
+}
+.banner-icon
+{
+    background:linear-gradient(rgba(1, 87, 247, 0.637),rgba(1, 87, 247, 0.637)),url('https://bootstrapmade.com/demo/templates/DevFolio/assets/img/counters-bg.jpg');
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    padding-top: 10%;
+}
+.card-banner i
+{
+    font-size: 35px;
+    color: rgb(211, 227, 250);
+    border: 10px solid rgb(211, 227, 250);
+    border-radius: 50%;
+    padding: 15px 15px;
+}
+.title-port
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.icon i
+{
+    font-size: 35px;
+    border-radius: 50%;
+    border: 3px solid #007aff;
+    padding: 2px 3px;
+    color: #007aff;
+}
+.card-img
+{
+    overflow: hidden;
+}
+.card-img img
+{
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+.card-img img:hover
+{
+    transform: scale(1.2);
+}
+.con
+{
+    background-color: white;
+}
+.scale-img
+{
+    box-shadow:  0px 5px 5px gray;
+}
+.count
+{
+    color: white;
+    /* font-weight: bold; */
+    font-size: 34px;
+}
+.con p
+{
+    font-size: 14px;
+}
+.overlay
+{
+    background: linear-gradient(rgba(1, 87, 247, 0.637),rgba(1, 87, 247, 0.637)),url('https://wallpapersmug.com/large/a1d479/green-forest-fog-nature-dawn.jpg');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+body 
+{
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.blog h1
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.profile-slide img
+{
+    border-radius: 50%;
+}
+.swiper-wrapper
+{
+    display: flex;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.pro-overlay
+{
+    padding-top: 10%;
+}
+.line::after
+{
+    content: '';
+    display: block;
+    width: 50px;
+    border: 3px solid blue;
+    position: relative;
+    top: 10px;
+    margin: auto;
+}
+.img-btn
+{
+    margin-top: -10px;
+}
+.img-btn a
+{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.pg-img
+{
+    background: linear-gradient(rgba(1, 87, 247, 0.637),rgba(1, 87, 247, 0.637)),url('https://wallpapersmug.com/large/a1d479/green-forest-fog-nature-dawn.jpg');
+    height: 500px;
+    width: 120%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+}
+.last
+{
+    background:linear-gradient(rgba(1, 87, 247, 0.575),rgba(1, 87, 247, 0.575)), url('https://nt.global.ssl.fastly.net/binaries/content/gallery/website/national/regions/worcestershire-herefordshire/places/clent-hills/library/autumn/beech-tree-clent-hills-worcestershire-1591489.jpg');
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0078ff;
+}
+
+.contact-box
+{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 10%;
+    
+}  
+.line1
+{
+    background-color: #0078ff;
+    width: 15%;
+}
+.icons i
+{ 
+    display: inline-block;
+}
+.icons1 i
+{
+    display: inline-block;
+    border: 3px solid #0078ff;    
+    border-radius: 50%;
+    padding: 10px 15px;
+    transition: all ease-in-out 0.4s;
+}
+.icons1 i:hover
+{
+    background-color: #0078ff;
+    border: 3px solid #b3cff0;
+    color: white;
+} 
+.card-img-top1
+{
+    height: 9%;
+}
+
+@media(min-width:992px) and (max-width:1400px)
+{
+    
+}
+
+@media (min-width:576px) and (max-width:768px)
+{
+    .contact-text
+    {
+        text-align: center;
+    }  
+    .contact-btn
+    {
+       margin-left: 25%;
+    }  
+}

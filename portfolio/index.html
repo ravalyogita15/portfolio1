@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+<body>
+    <!-- banner -->
+  <div class="banner mb-5">
+    <header class="header">
+      <div class="container d-flex m-auto justify-content-between">
+        <!-- <a href="" class="mt-4 text-decoration-none" style="font-size: 26px;font-weight:bold;color:black">DevFolio</a> -->
+        <button class="btn btn-secondary  d-sm-block d-lg-none mt-sm-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="margin-left: 80%; height: 30px;";><i class="bi bi-distribute-vertical"></i></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   
+    <ul class="navbar-nav  ">
+      <li class="nav-item  p-3"><a href=""class="nav-link text-decoration-none">HOME</a></li>
+      <li class="nav-item  p-3"><a href=""class="nav-link text-decoration-none">ABOUT</a></li>
+      <li class="nav-item  p-3"><a href=""class="nav-link text-decoration-none">SERVICES</a></li>
+      <li class="nav-item  p-3"><a href=""class="nav-link text-decoration-none">WORK</a></li>
+      <li class="nav-item  p-3"><a href=""class="nav-link text-decoration-none">BLOG</a></li>
+      <li class="nav-item  p-3">
+          <div class="dropdown">
+          <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"style="font-size:18px;color:black">
+              Dropdown
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item text-secondary" href="#">Action</a></li>
+              <li><a class="dropdown-item text-secondary" href="#">Another action</a></li>
+              <li><a class="dropdown-item text-secondary" href="#">Something else here</a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="nav-item list-unstyled p-3"><a href=""class="text-decoration-none">CONTACT</a></li>
+  </ul>  
+  </div>
+</div>
+              <ul class="navbar d-sm-none d-lg-block d-lg-flex">
+                  <li class="list-unstyled p-3"><a href=""class="text-decoration-none">HOME</a></li>
+                  <li class="list-unstyled p-3"><a href=""class="text-decoration-none">ABOUT</a></li>
+                  <li class="list-unstyled p-3"><a href=""class="text-decoration-none">SERVICES</a></li>
+                  <li class="list-unstyled p-3"><a href=""class="text-decoration-none">WORK</a></li>
+                  <li class="list-unstyled p-3"><a href=""class="text-decoration-none">BLOG</a></li>
+                  <li class="list-unstyled p-3">
+                      <div class="dropdown">
+                      <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"style="font-size:18px;color:black">
+                          Dropdown
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item text-secondary" href="#">Action</a></li>
+                          <li><a class="dropdown-item text-secondary" href="#">Another action</a></li>
+                          <li><a class="dropdown-item text-secondary" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="list-unstyled p-3"><a href=""class="text-decoration-none">CONTACT</a></li>
+              </ul>            
+      </div>
+	</header>
+      <section class="cd-intro animate__animated wow animate__backInRight">
+        <h1 class="cd-headline clip is-full-width ">
+          <span>my name</span>
+          <div>
+            <span class="cd-words-wrapper">
+              <b class="is-visible ">raval yogita..</b>
+              <b>Developer</b>
+            </span>
+          </div>
+        </h1>
+      </section> <!-- cd-intro -->
+    </div>
+
+<!-- profile -->
+    <section>
+      <div class="container  profile">
+        <div class="row p-5 bg-light">
+          <div class="col-6 col-sm-12 col-lg-6 animate__animated wow animate__fadeInLeft">
+            <div class="row">
+              <div class="col-4">
+                <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg" alt="">
+              </div>
+              <div class="col-8 p-3">
+                <table  >
+                  <tr>
+                    <td class="p-2"> <b>Name:</b> raval yogita</td>
+                  </tr>
+                  <tr>
+                    <td class="p-2"> <b>Profile:</b>developer</td>
+                  </tr>
+                  <tr>
+                    <td class="p-2"> <b>Email:</b>ravalyogita5@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td class="p-2"> <b>Phone:</b>7043221375</td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="skills">
+                <h1 class="title pt-3">skills</h1>
+                <div class="pro-progress pt-3">
+                  <h3>HTML 85%</h3>
+                  <div class="progress">
+                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h3 class="pt-5"> CSS3 75%</h3>
+                  <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h3 class="pt-5">PHP 50%</h3>
+                  <div class="progress">
+                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h3 class="pt-5">JAVASCRIPT 90%</h3>
+                  <div class="progress">
+                    <div class="progress-bar " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"style="width:90%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-sm-12 col-lg-6 animate__animated wow animate__fadeInRight">
+            <h1 class="aboutme">About me</h1><br><br>
+            <p class="about-pr">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt. <br><br>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem. <br><br>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+   
+<!-- SERVICES -->
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center p-5">
+        <h1 class="ser">SERVICES</h1>
+        <p class="line"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 mb-4 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__fadeInDown">
+        <div class="card p-3 box">
+            <div class="icon-card">
+            <i class="bi bi-briefcase"></i>
+            </div>
+          <div class="card-body text-center">
+            <h2 class="card-title pb-3">WEB DESIGN</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 mb-4 col-sm-12 col-lg-6  col-xl-4 animate__animated wow animate__fadeInDown">
+        <div class="card p-3 box">
+            <div class="icon-card">
+              <i class="bi bi-card-checklist"></i>
+            </div>
+          <div class="card-body text-center">
+            <h2 class="card-title pb-3">WEB DEVELOPMENT</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 mb-4 col-sm-12 col-lg-6 col-xl-4 col-xl-4 animate__animated wow animate__fadeInDown">
+        <div class="card p-3 box">
+            <div class="icon-card">
+              <i class="bi bi-bar-chart"></i>
+            </div>
+          <div class="card-body text-center">
+            <h2 class="card-title pb-3">PHOTOGRAPHY</h2>
+            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 mb-4 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__fadeInUp">
+        <div class="card p-3 box">
+            <div class="icon-card">
+              <i class="bi bi-binoculars"></i>
+            </div>
+          <div class="card-body text-center">
+            <h2 class="card-title pb-3">RESPONSIVE DESIGN</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 mb-4 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__fadeInUp ">
+        <div class="card p-3 box">
+            <div class="icon-card">
+              <i class="bi bi-brightness-high"></i>
+            </div>
+          <div class="card-body text-center">
+            <h2 class="card-title pb-3">GRAPHIC DESIGN</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 mb-4 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__fadeInUp ">
+        <div class="card p-3 box">
+            <div class="icon-card">
+            <i class="bi bi-calendar-week"></i>
+            </div>
+          <div class="card-body text-center">
+            <h2 class="card-title pb-3">MARKETING SERVICES</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- bannericon -->
+
+<section>
+    <div class="banner-icon  animate__animated wow animate__zoomIn">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-3 col-sm-6 pb-sm-4 col-lg-3">
+            <div class="card-banner text-center">
+              <div class="icon-img">
+                <i class="bi bi-check"></i>
+              </div>
+              <div class="text-body pt-5">
+                <div class="count">450</div> 
+                <p class="text-light">WORKS COMPLETED</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 col-sm-6 pb-sm-4 col-lg-3">
+            <div class="card-banner text-center">
+              <div class="icon-img">
+                <i class="bi bi-journal-richtext"></i>
+              </div>
+              <div class="text-body pt-5">
+                <div class="count">25</div> 
+                <p class="text-light">WORKS COMPLETED</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 col-sm-6 pt-sm-4 pb-xl-4  col-lg-3  animate__animated wow ">
+            <div class="card-banner text-center">
+              <div class="icon-img">
+                <i class="bi bi-people"></i>
+              </div>
+              <div class="text-body pt-5">
+                <div class="count">550</div> 
+                <p class="text-light">WORKS COMPLETED</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 col-sm-6 pt-sm-4 pb-xl-4 col-lg-3">
+            <div class="card-banner text-center">
+              <div class="icon-img">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="text-body pt-5">
+                <div class="count">48</div> 
+                <p class="text-light">WORKS COMPLETED</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- portfoilo -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mt-5 pt-sm-5">
+        <h1 class="title-port">PORTFOLIO</h1>
+        <p class="line">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 mb-5 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__slideInLeft ">
+        <div class="card  card-img ">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-1.jpg" alt="">
+        </div>
+          <div class="taxt-body d-flex justify-content-between p-4 con">
+            <div class="content">
+              <h3>Lorem impsum dolor</h3>
+              <p><a class="text-primary">Web Design </a>/ 18 Sep. 2018</p>
+            </div>
+            <div class="icon"><i class="bi bi-plus"></i></div>
+          </div>
+      </div>
+
+      <div class="col-4  mb-5 col-sm-12 col-lg-6  col-xl-4 animate__animated wow animate__slideInUp">
+        <div class="card bg-light card-img">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-2.jpg" alt="">
+        </div>
+          <div class="taxt-body d-flex justify-content-between p-4 con">
+            <div class="content">
+              <h3>Lorem impsum dolor</h3>
+              <p><a class="text-primary">Web Design </a>/ 18 Sep. 2018</p>
+            </div>
+            <div class="icon"><i class="bi bi-plus"></i></div>
+          </div>
+      </div>
+
+      <div class="col-4  mb-5 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__slideInRight ">
+        <div class="card bg-light card-img">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-3.jpg" alt="">
+        </div>
+          <div class="taxt-body d-flex justify-content-between p-4 con">
+            <div class="content">
+              <h3>Lorem impsum dolor</h3>
+              <p><a class="text-primary">Web Design </a> / 18 Sep. 2018</p>
+            </div>
+            <div class="icon"><i class="bi bi-plus"></i></div>
+          </div>
+      </div>
+
+      <div class="col-4  mb-5 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__slideInRight ">
+        <div class="card bg-light card-img">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-4.jpg" alt="">
+        </div>
+          <div class="taxt-body d-flex justify-content-between p-4 con">
+            <div class="content">
+              <h3>Lorem impsum dolor</h3>
+              <p><a class="text-primary">Web Design </a> / 18 Sep. 2018</p>
+            </div>
+            <div class="icon"><i class="bi bi-plus"></i></div>
+          </div>
+      </div>
+
+      <div class="col-4  mb-5 col-sm-12 col-lg-6 col-xl-4  animate__animated wow animate__slideInDown">
+        <div class="card bg-light card-img ">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-5.jpg" alt="">
+        </div>
+          <div class="taxt-body d-flex justify-content-between p-4 con">
+            <div class="content">
+              <h3>Lorem impsum dolor</h3>
+              <p><a class="text-primary">Web Design </a>/ 18 Sep. 2018</p>
+            </div>
+            <div class="icon"><i class="bi bi-plus"></i></div>
+          </div>
+      </div>
+
+      <div class="col-4  mb-5 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__slideInRight">
+        <div class="card bg-light card-img">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-6.jpg" alt="">
+        </div>
+          <div class="taxt-body d-flex justify-content-between p-4 con">
+            <div class="content">
+              <h3>Lorem impsum dolor</h3>
+              <p><a class="text-primary">Web Design </a> / 18 Sep. 2017</p>
+            </div>
+            <div class="icon"><i class="bi bi-plus"></i></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <section class="overlay  animate__animated wow animate__zoomIn ">
+    <div class="pro-overlay">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide p-5">
+           
+            <h1 class="text-center text-light pt-4">XAVI ALONSO</h1>
+            <p class="text-center text-light"> Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor <br> sit amet,consectetur adipicing elit.</p>
+          </div>
+        </div>
+   
+      <div class="swiper-pagination"></div>
+    </div>
+    </div>
+  
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+   </section>
+  
+  </div>
+</div>
+
+<section class="blog mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>BLOG</h1>
+        <p class="line">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+       </div>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+      <div class="col-4 col-sm-12 col-lg-6 col-xl-4 animate__animated wow animate__zoomOutLeft">
+      <div class="card">
+        <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-1.jpg" alt=""
+        class="img-fluid " style="height: 250px;">
+        <div class="img-btn text-center"><a href="#" class="btn btn-primary ">WEB DESIGN</a></div>
+        <div class="card-body ">
+          <h2 class="card-title p-3">See more ideas about Travel</h2>
+          <p class="card-text p-2">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-item-center">
+          <div class="footer-img  d-flex">
+          <img class="rounded-circle" src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg" alt=""width="40px">
+          <p class="mt-3 ms-3"> Morgan Freeman</p>
+          </div>
+          <div class="time d-flex p-2 ">
+            <i class="bi bi-clock"></i>
+            <p class="ms-2">10 min</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      <div class="col-4 col-sm-12 pt-sm-5 col-lg-6 col-xl-4 animate__animated wow animate__zoomOutUp p-lg-0">
+        <div class="card">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-2.jpg" alt=""
+          class="img-fluid " style="height: 250px;">
+          <div class="img-btn text-center"><a href="#" class="btn btn-primary ">WEB DESIGN</a></div>
+          <div class="card-body ">
+            <h2 class="card-title p-3">See more ideas about Travel</h2>
+            <p class="card-text p-2">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-item-center">
+            <div class="footer-img  d-flex">
+            <img class="rounded-circle" src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg" alt=""width="40px">
+            <p class="mt-3 ms-3"> Morgan Freeman</p>
+            </div>
+            <div class="time d-flex p-2 ">
+              <i class="bi bi-clock"></i>
+              <p class="ms-2">10 min</p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class="col-4 col-sm-12 pt-sm-5  col-lg-6 m-lg-auto col-xl-4 pt-xl-0 animate__animated wow animate__zoomOutRight">
+        <div class="card">
+          <img src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-3.jpg" alt=""
+          class="img-fluid " style="height: 250px;">
+          <div class="img-btn text-center"><a href="#" class="btn btn-primary ">WEB DESIGN</a></div>
+          <div class="card-body ">
+            <h2 class="card-title p-3">See more ideas about Travel</h2>
+            <p class="card-text p-2">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-item-center">
+            <div class="footer-img  d-flex">
+            <img class="rounded-circle" src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg" alt=""width="40px">
+            <p class="mt-3 ms-3"> Morgan Freeman</p>
+            </div>
+            <div class="time d-flex p-2 ">
+              <i class="bi bi-clock"></i>
+              <p class="ms-2">10 min</p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+            <div class="last  mt-5">
+              <div class="container pb-5">
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="">
+                              <div class="container">
+                                  <div class="row p-2 contact-box">
+                                      <div class="col-6 col-sm-12 col-md-6 col-lg-6 mt-5 mt-xl-0 animate__animated wow animate__fadeInLeftBig ">
+                                          <h2 class="text-center">Send Message Us</h2>
+                                          <div class="line1"></div>
+          
+                                          <div class="row mt-5">
+                                              <div class="col-12">
+                                                  <input type="text" placeholder="Your Name" style="width: 95%; padding: 5px 5px;">
+                                              </div>
+                                              <div class="col-12 mt-3">
+                                                  <input type="text" placeholder="Your Email" style="width: 95%; padding: 5px 5px;">
+                                              </div>
+                                              <div class="col-12 mt-3">
+                                                  <input type="text" placeholder="Subject" style="width: 95%; padding: 5px 5px;">
+                                              </div>
+                                              <div class="col-12 mt-3">
+                                                  <input type="text" placeholder="Massage" style="width: 95%; padding: 5px 5px 85px 5px;">
+                                              </div>
+                                          </div>
+          
+                                          <div class="col-6 m-auto mt-5">
+                                              <button class="btn text-white contact-btn" style="background-color: #0078FF; border-radius: 25px; padding: 10px 20px;">Send Massage</button>
+                                          </div>
+                                      </div>
+                                      <div class="col-6 col-sm-12 col-md-6 col-lg-6 mt-5 pt-sm-5 contact-text  animate__animated wow animate__fadeInRightBig ">
+                                          <h3>Get in Touch</h3>
+                                          <div class="line1"></div>
+          
+                                          <p style="font-size: 1.25rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #4E4E4E;" class="mt-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis<br> dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam<br> magni ipsum suscipit amet? Autem nemo esse laboriosam ratione<br> nobis mollitia inventore?</p>
+          
+                                          <div class="icons">
+                                              <i class="bi bi-geo-alt text-primary mt-2"></i>&nbsp;329,WASHINGTON ST BOSTON,<br> &nbsp;&nbsp;&nbsp;&nbsp;MA 02108<br>    
+                                              <i class="bi bi-phone text-primary mt-2"></i>&nbsp;(617) 557-0089<br>
+                                              <i class="bi bi-envelope text-primary mt-2"></i>&nbsp;&nbsp;contact@example.com
+                                          </div>
+          
+                                          <div class="icons1 mt-3 pb-5">
+                                              <i class="bi bi-facebook me-3"></i>
+                                              <i class="bi bi-instagram me-3"></i>
+                                              <i class="bi bi-twitter me-3"></i>
+                                              <i class="bi bi-linkedin me-3"></i>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        
+            
+            <script src="js/wow.min.js"></script>
+            <script>
+            new WOW().init();
+            </script>
+
+
+</section>
+    <script src="main.js"></script>
+</body>
+</html>
